@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		17D6DD62262243A900C8CDB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD61262243A900C8CDB3 /* AppDelegate.swift */; };
-		17D6DD64262243A900C8CDB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD63262243A900C8CDB3 /* SceneDelegate.swift */; };
-		17D6DD66262243A900C8CDB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD65262243A900C8CDB3 /* ViewController.swift */; };
-		17D6DD69262243A900C8CDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D6DD67262243A900C8CDB3 /* Main.storyboard */; };
 		17D6DD6B262243AA00C8CDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D6DD6A262243AA00C8CDB3 /* Assets.xcassets */; };
 		17D6DD6E262243AA00C8CDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D6DD6C262243AA00C8CDB3 /* LaunchScreen.storyboard */; };
+		17D6DD78262243BC00C8CDB3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD77262243BC00C8CDB3 /* HomeViewController.swift */; };
+		17D6DD842622463900C8CDB3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD832622463900C8CDB3 /* UIView+Extension.swift */; };
+		17D6DD8826224C1400C8CDB3 /* DatabaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD8726224C1400C8CDB3 /* DatabaseRepository.swift */; };
+		17D6DD8D26224D4A00C8CDB3 /* BirdType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD8C26224D4A00C8CDB3 /* BirdType.swift */; };
+		17D6DD9926224EE100C8CDB3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD9826224EE100C8CDB3 /* HomeViewModel.swift */; };
+		17D6DD9C26224F9D00C8CDB3 /* CounterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6DD9B26224F9D00C8CDB3 /* CounterItem.swift */; };
+		7728B1A1ADC611D04F15BA95 /* Pods_BirdCounter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88611F0CAE854AC1FA10205 /* Pods_BirdCounter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17D6DD5E262243A900C8CDB3 /* BirdCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D6DD61262243A900C8CDB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17D6DD63262243A900C8CDB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17D6DD65262243A900C8CDB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17D6DD68262243A900C8CDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17D6DD6A262243AA00C8CDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17D6DD6D262243AA00C8CDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17D6DD6F262243AA00C8CDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D6DD77262243BC00C8CDB3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		17D6DD832622463900C8CDB3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		17D6DD8726224C1400C8CDB3 /* DatabaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepository.swift; sourceTree = "<group>"; };
+		17D6DD8C26224D4A00C8CDB3 /* BirdType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdType.swift; sourceTree = "<group>"; };
+		17D6DD9826224EE100C8CDB3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		17D6DD9B26224F9D00C8CDB3 /* CounterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterItem.swift; sourceTree = "<group>"; };
+		3DBDF1848C2B141ABB505F11 /* Pods-BirdCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdCounter.debug.xcconfig"; path = "Target Support Files/Pods-BirdCounter/Pods-BirdCounter.debug.xcconfig"; sourceTree = "<group>"; };
+		6E04D7BC081ED04B395B5B1B /* Pods-BirdCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdCounter.release.xcconfig"; path = "Target Support Files/Pods-BirdCounter/Pods-BirdCounter.release.xcconfig"; sourceTree = "<group>"; };
+		F88611F0CAE854AC1FA10205 /* Pods_BirdCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7728B1A1ADC611D04F15BA95 /* Pods_BirdCounter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				17D6DD60262243A900C8CDB3 /* BirdCounter */,
 				17D6DD5F262243A900C8CDB3 /* Products */,
+				777714DA544D558BF4324329 /* Pods */,
+				587605AB3A42D3FDE3921D34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,83 @@
 		17D6DD60262243A900C8CDB3 /* BirdCounter */ = {
 			isa = PBXGroup;
 			children = (
+				17D6DD9026224EC000C8CDB3 /* Home */,
+				17D6DD8B26224D3F00C8CDB3 /* Model */,
+				17D6DD8626224C0400C8CDB3 /* Repository */,
+				17D6DD822622462700C8CDB3 /* Extensions */,
 				17D6DD61262243A900C8CDB3 /* AppDelegate.swift */,
-				17D6DD63262243A900C8CDB3 /* SceneDelegate.swift */,
-				17D6DD65262243A900C8CDB3 /* ViewController.swift */,
-				17D6DD67262243A900C8CDB3 /* Main.storyboard */,
 				17D6DD6A262243AA00C8CDB3 /* Assets.xcassets */,
 				17D6DD6C262243AA00C8CDB3 /* LaunchScreen.storyboard */,
 				17D6DD6F262243AA00C8CDB3 /* Info.plist */,
 			);
 			path = BirdCounter;
+			sourceTree = "<group>";
+		};
+		17D6DD822622462700C8CDB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17D6DD832622463900C8CDB3 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17D6DD8626224C0400C8CDB3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				17D6DD8726224C1400C8CDB3 /* DatabaseRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		17D6DD8B26224D3F00C8CDB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17D6DD8C26224D4A00C8CDB3 /* BirdType.swift */,
+				17D6DD9B26224F9D00C8CDB3 /* CounterItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17D6DD9026224EC000C8CDB3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				17D6DD9226224ECB00C8CDB3 /* ViewModel */,
+				17D6DD9126224EC500C8CDB3 /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		17D6DD9126224EC500C8CDB3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				17D6DD77262243BC00C8CDB3 /* HomeViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		17D6DD9226224ECB00C8CDB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				17D6DD9826224EE100C8CDB3 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		587605AB3A42D3FDE3921D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88611F0CAE854AC1FA10205 /* Pods_BirdCounter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		777714DA544D558BF4324329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDF1848C2B141ABB505F11 /* Pods-BirdCounter.debug.xcconfig */,
+				6E04D7BC081ED04B395B5B1B /* Pods-BirdCounter.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17D6DD72262243AA00C8CDB3 /* Build configuration list for PBXNativeTarget "BirdCounter" */;
 			buildPhases = (
+				8A644D1CF5135D51EFA66490 /* [CP] Check Pods Manifest.lock */,
 				17D6DD5A262243A900C8CDB3 /* Sources */,
 				17D6DD5B262243A900C8CDB3 /* Frameworks */,
 				17D6DD5C262243A900C8CDB3 /* Resources */,
+				CFBA8715053B02404F8B91B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +209,71 @@
 			files = (
 				17D6DD6E262243AA00C8CDB3 /* LaunchScreen.storyboard in Resources */,
 				17D6DD6B262243AA00C8CDB3 /* Assets.xcassets in Resources */,
-				17D6DD69262243A900C8CDB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A644D1CF5135D51EFA66490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdCounter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFBA8715053B02404F8B91B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdCounter/Pods-BirdCounter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdCounter/Pods-BirdCounter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BirdCounter/Pods-BirdCounter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17D6DD5A262243A900C8CDB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D6DD66262243A900C8CDB3 /* ViewController.swift in Sources */,
+				17D6DD8D26224D4A00C8CDB3 /* BirdType.swift in Sources */,
+				17D6DD9926224EE100C8CDB3 /* HomeViewModel.swift in Sources */,
+				17D6DD8826224C1400C8CDB3 /* DatabaseRepository.swift in Sources */,
+				17D6DD842622463900C8CDB3 /* UIView+Extension.swift in Sources */,
 				17D6DD62262243A900C8CDB3 /* AppDelegate.swift in Sources */,
-				17D6DD64262243A900C8CDB3 /* SceneDelegate.swift in Sources */,
+				17D6DD9C26224F9D00C8CDB3 /* CounterItem.swift in Sources */,
+				17D6DD78262243BC00C8CDB3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17D6DD67262243A900C8CDB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17D6DD68262243A900C8CDB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17D6DD6C262243AA00C8CDB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +403,7 @@
 		};
 		17D6DD73262243AA00C8CDB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBDF1848C2B141ABB505F11 /* Pods-BirdCounter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +422,7 @@
 		};
 		17D6DD74262243AA00C8CDB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E04D7BC081ED04B395B5B1B /* Pods-BirdCounter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

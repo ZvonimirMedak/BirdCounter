@@ -6,3 +6,9 @@
 //
 
 import Foundation
+public enum BirdType: String {    
+    case brown
+    case yellow
+    case red
+    case blue
+}

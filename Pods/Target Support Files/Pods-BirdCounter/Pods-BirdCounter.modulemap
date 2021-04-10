@@ -1,0 +1,6 @@
+framework module Pods_BirdCounter {
+  umbrella header "Pods-BirdCounter-umbrella.h"
+
+  export *
+  module * { export * }
+}
